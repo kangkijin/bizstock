@@ -1,0 +1,899 @@
+<!doctype html>
+<html lang="ko">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densitydpi=medium-dpi shrink-to-fit=no">
+		<meta name="format-detection" content="telephone=no, address=no">
+		<meta name="title" content="재테크의 모든 것 - 크존">
+		<meta name="copyright" content="크존">
+		<meta property="og:site_name" content="재테크의 모든 것">
+		<meta property="og:title" content="재테크의 모든 것 - 크존">
+		<meta property="og:description" content="재테크의 모든 정보">
+		<meta name="keywords" content="재테크존,크존">
+		<meta name="description" content="재테크의 모든 정보">
+		<meta property="og:image" content="../../../images/common/img_metacover.jpg">
+		<title>크존</title>
+
+		<!-- [pp] favicon -->
+		<link rel="apple-touch-icon" href="../../../images/favicon.png">
+		<link rel="shortcut icon" href="../../../images/favicon.ico">
+		<!-- [pp] //favicon -->
+
+		<!-- [pp] css -->
+		<link rel="stylesheet" type="text/css" href="../../../src/custom-scrollbar/css/jquery.mCustomScrollbar.css">
+		<link rel="stylesheet" type="text/css" href="../../../src/magnetic-popup/css/magnific-popup.css">
+		<link rel="stylesheet" type="text/css" href="../../../src/select2/css/select2.css">
+		<link rel="stylesheet" type="text/css" href="../../../src/swiper/css/swiper.css">
+		<link rel="stylesheet" type="text/css" href="../../../css/dl_global.css">
+		<link rel="stylesheet" type="text/css" href="../../../css/client/normalize.css">
+		<link rel="stylesheet" type="text/css" href="../../../css/client/grid.css">
+		<link rel="stylesheet" type="text/css" href="../../../css/client/formstyle.css">
+		<link rel="stylesheet" type="text/css" href="../../../css/client/table.css">
+		<link rel="stylesheet" type="text/css" href="../../../css/client/common_ui.css">
+		<link rel="stylesheet" type="text/css" href="../../../css/client/ui.css">
+		<link rel="stylesheet" type="text/css" href="../../../css/client/popup.css">
+		<!-- [pp] //css -->
+
+		<!--[pp] js -->
+		<script type="text/javascript" src="../../../src/jquery/js/jquery-3.5.1.min.js"></script>
+		<script type="text/javascript" src="../../../src/custom-scrollbar/js/jquery.mCustomScrollbar.min.js"></script>
+		<script type="text/javascript" src="../../../src/magnetic-popup/js/jquery.magnific-popup.js"></script>
+		<script type="text/javascript" src="../../../src/select2/js/select2.min.js"></script>
+		<script type="text/javascript" src="../../../src/swiper/js/swiper.min.js"></script>
+		<script type="text/javascript" src="../../../js/client/pp_common.js"></script>
+		<!-- Google tag (gtag.js) -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-1JC6EJWLQP"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+			gtag('config', 'G-1JC6EJWLQP');
+		</script>
+		<!--[pp] //js -->
+
+	</head>
+	<body>
+
+		<!--[pp] ie 하위버젼 접속시 알림 -->
+		<div id="browser_alert">
+			본 사이트는 익스플로러11 이상, 크롬, 오페라, 파이어폭스 브라우저등의 최신버전에 최적화 되어 있습니다.<br/>지금 사용하고 계시는 브라우저는 곧 지원이 중단되므로
+			<a href="http://windows.microsoft.com/ko-kr/internet-explorer/ie-11-worldwide-languages" target="_blank">익스플로러 최신버젼</a>으로 업그레이드하시거나 <a href="https://www.google.com/intl/ko/chrome/browser/" target="_blank">크롬</a>, <a href="http://www.opera.com/ko/computer" target="_blank" style="color:#f9c461;">오페라</a>, <a href="https://www.mozilla.org/en-US/firefox/new/?scene=2" target="_blank">파이어폭스</a>등의 최신 브라우저를 이용해 주세요.
+			<button type="button" class="browser_alert_close">닫기</button>
+		</div>
+		<!--[pp] // ie 하위버젼 접속시 알림 -->
+
+		<!-- [pp] 로딩중 화면 -->
+		<div id="loading" style="display: none;">
+			<p id="loading_image">
+				<img src="../../../images/loading.gif" alt="Loading..."><br>
+				<span>Loading</span>
+			</p>
+		</div>
+		<!-- [pp] //로딩중 화면 -->
+
+		<!--[pp] skip nav -->
+		<nav class="skip_nav">
+			<a href="#container_skip">본문영역 바로가기</a>
+			<a href="#gnb_skip">주요메뉴 바로가기</a>
+		</nav>
+		<!--[pp] //skip nav -->
+
+		<!-- [pp] 전체영역 -->
+		<div class="page_wrap">
+
+			<!-- [pp] 본문영역 -->
+			<div id="container_skip" class="content_wrap subpage">
+				
+				<!-- [pp] 딤 처리영역 -->
+				<div class="bg_dim"></div>
+				<!-- [pp] //딤 처리영역 -->
+
+				<header id="header" class="header_wrap">
+					<div class="header_top">
+						<button class="btn_home" title="홈 이동">홈</button>
+						<h1>
+							<img src="../../../images/client/common/chzone_logo.png" alt="chzone">
+						</h1>
+						<div class="function_menu">
+							<!-- [pp] on으로 표시 -->
+							<a href="javascript:void(0);" class="main_bell on" title="알림페이지 이동">알림페이지 이동</a>
+							<button type="button" class="btn_menuclose" title="메뉴 닫기">닫기</button>
+						</div>
+					</div>
+
+					<div class="header_content">
+						<div>
+							<!-- [pp] 로그인 전-->
+							<div class="login_wrap before">
+								<p>로그인하시고<br/>혜택을 누리세요.</p>
+								<button type="button" class="btn_md btn_round btn_positive1" title="로그인">로그인</button>
+								<div class="join_txt">
+									아직 회원이 아니시라면
+									<a href="javascript:void(0);" title="회원가입">회원가입</a>
+								</div>
+							</div>
+							<!-- [pp] //로그인 전-->
+
+							<!-- [pp] 로그인 후-->
+							<!--<div class="login_wrap after">
+								<p>김아름님<br/>안녕하세요!</p>
+								<button type="button" class="btn_logout" title="로그아웃">로그아웃</button>
+								<div class="btn_area wd_p100">
+									<button type="button" class="btn_md btn_round btn_bo_negative2">히스토리</button>
+									<button type="button" class="btn_md btn_round btn_positive1">마이페이지</button>
+								</div>
+							</div>-->
+							<!-- [pp] //로그인 후-->
+
+							<nav id="gnb_skip" class="gnb_list">
+								<ul class="gnb_1depth">
+									<li>
+										<a href="javascript:void(0);">증권</a>
+									</li>
+									<li>
+										<a href="javascript:void(0);">재무</a>
+										<ul class="gnb_2depth">
+											<li>
+												<a href="javascript:void(0);">세무 전문가 리스트보기</a>
+											</li>
+											<li>
+												<a href="javascript:void(0);">부동산 전문가 리스트보기</a>
+											</li>
+											<li>
+												<a href="javascript:void(0);">보험 상담받기</a>
+											</li>
+										</ul>
+									</li>
+									<li>
+										<a href="javascript:void(0);">투자자문</a>
+									</li>
+									<li>
+										<a href="javascript:void(0);" class="not_link">CHZONE SPECIAL</a>
+										<ul class="gnb_2depth">
+											<li>
+												<a href="javascript:void(0);">종목분석</a>
+											</li>
+											<li>
+												<a href="javascript:void(0);">방송보기</a>
+											</li>
+											<li>
+												<a href="javascript:void(0);">최신뉴스</a>
+											</li>
+										</ul>
+									</li>
+									<li>
+										<a href="javascript:void(0);" class="not_link">CHZONE EVENT</a>
+										<ul class="gnb_2depth">
+											<li>
+												<a href="javascript:void(0);">이벤트</a>
+											</li>
+											<li>
+												<a href="javascript:void(0);">당첨자발표</a>
+											</li>
+										</ul>
+									</li>
+									<li>
+										<a href="javascript:void(0);">공지사항</a>
+									</li>
+								</ul>
+							</nav>
+
+							<ul class="header_btnlist">
+								<li>
+									<strong>고객센터</strong>
+									<div class="right">
+										<a href="tel:1588-5797" class="btn_call" title="1588-5797로 전화연결">전화연결</a>
+										<a href="javascript:void(0);" class="btn_kakao" title="크존 카카오톡 비즈니스채널 챗으로 이동">카카오톡</a>
+									</div>
+								</li>
+								<li>
+									<a href="javascript:void(0);">이용약관</a>
+								</li>
+								<li>
+									<a href="javascript:void(0);">개인정보처리방침</a>
+								</li>
+								<li>
+									<strong>버전정보</strong>
+									<div class="right">V2.0.0</div>
+								</li>
+							</ul>
+						</div>
+						
+						<div class="footer_wrap">
+							<ul>	
+								<li>
+									<strong>(주)SBS미디어넷</strong>
+									대표이사 : 김계홍<br/>
+									서울특별시 마포구 상암산로 82 SBS프리즘타워 10층
+								</li>
+								<li>
+									<strong>(주)다인리더스</strong>
+									대표이사 : 임무호<br/>
+									서울특별시 성동구 성수일로8길 5 A동 2006호
+								</li>
+								<li>
+									개인정보 관리책임자 : 김대훈<br/>
+									<ul>	
+										<li>대표전화 : 02-6951-0157</li>
+										<li>사업자등록번호 : 337-81-00309</li>
+									</ul>
+								</li>
+							</ul>
+							<p class="copyright">
+								Copyright©SBS Medianet&Yesplanet.<br/>
+								2022 All right reserved.
+							</p>
+							<p class="bold">
+								본 사이트에서 제공하는 모든 정보(증권방송 포함)는 
+								투자판단의 참고자료이며, 투자의 최종 책임은 본 정보를 
+								이용하시는 본인에게 있습니다.
+							</p>
+						</div>
+					</div>
+				</header>
+
+				<!-- [pp] 하단 고정 영역 -->
+				<div class="function_wrap">
+					<ul>
+						<li>
+							<button type="button" class="menu" title="메뉴">
+								<span></span>
+								<span></span>
+								<span></span>
+								메뉴 
+							</button>
+						</li>
+						<li>
+							<button type="button" class="home" title="홈 이동">홈</button>
+						</li>
+						<li>
+							<button type="button" class="counsel" title="히스토리 이동">히스토리</button>
+						</li>
+						<li>
+							<button type="button" class="mypage" title="마이페이지 이동">마이페이지</button>
+						</li>
+					</ul>
+				</div>
+				<!-- [pp] //하단 고정 영역 -->
+				<!-- [pp] //여기까지 고정영역-->
+
+				<!-- [pp] 전문가 의견 배너 -->
+				<div class="swiper-container export_opinionbox">
+					<ul class="swiper-wrapper">
+						<li class="swiper-slide">
+							<a href="javascript:void(0);">
+								<div class="img_wrap">
+									<img src="../../../images/client/sub/img_export_ex.png" alt="이영진 전문가">
+								</div>
+								<div class="text">
+									<p class="name">이영진 전문가</p>
+									오픈채팅방에서 언급한 포스코 홀딩스 투자의견은?
+								</div>
+							</a>
+						</li>
+						<li class="swiper-slide">
+							<a href="javascript:void(0);">
+								<div class="img_wrap">
+									<img src="../../../images/client/sub/icon_notimg.png" alt="이미지 없음">
+								</div>
+								<div class="text">
+									<p class="name">전문가 이름</p>
+									전문가 의견 표출 영역 전문가 의견 표출 영역 전문가 의견 표출 영역
+								</div>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<!-- [pp] //전문가 의견 배너 -->
+
+				<div class="sub_top">
+					<button type="button" class="btn_back" title="뒤로가기">뒤로가기</button>
+					<div class="title_txt">
+						<h2>전문가 상세페이지</h2>
+					</div>
+					<div class="expert_info">
+						<div class="top">
+							<div class="img_wrap">
+								<img src="../../../images/client/sub/icon_notimg.png" alt="예시">
+							</div>
+							<div>
+								<div>
+									<strong>이영진</strong>
+									전문가
+								</div>
+								<p>성장성에 배팅하라</p>
+							</div>
+						</div>
+						<div class="btn_area list_wrap">
+
+							<!-- [pp] 딤 처리영역 -->
+							<div class="bg_dim"></div>
+							<!-- [pp] //딤 처리영역 -->
+
+							<!-- [pp] 구독하기, 구독중 :
+							<button type="button" class="btn_round btn_sm btn_positive1">구독하기</button>
+							<button type="button" class="btn_round btn_sm btn_negative1">구독중</button>
+							-->
+							<button type="button" class="btn_round btn_sm btn_positive1">구독하기</button>
+							<button type="button" class="btn_round btn_sm btn_bo_negative2 list-item">실시간정보 보기</button>
+
+							<!-- [pp] 오픈채팅 팝업 -->
+							<div class="popup-layer chat-layer">
+
+								<div class="chat_header">
+									<h2>실시간정보 바로보기</h2>
+								</div>
+								<div class="chat_content">
+									<div class="member_info">
+										<div class="img_wrap">
+											<img src="../../../images/client/sub/img_openchat_ex.png" alt="신현호 대표">
+										</div>
+										<div class="txt">
+											<p class="name"><span>신현호</span>대표</p>
+											<strong>MEGA TREND 투자전문가</strong>
+											실전투자대회에서 검증된 스윙/단기매매 전문가
+										</div>
+									</div>
+									<button type="button" class="btn_round btn_kakaotalk wd_p100" title="바로보기">실시간정보 바로보기</button>
+									<p class="join_code">
+										참여코드 :<span class="font_red">3906</span>을 꼭 입력해주세요!
+									</p>
+									<div class="notice_list">
+										<strong>유의사항</strong>
+										<ul>
+											<li>
+												채팅방 입장시 <span>크존</span>의 <span>닉네임과 동일</span>하게 입력해주세요.
+											</li>
+											<li>
+												위 실시간정보 바로보기 버튼을 누르면 바로 입장됩니다.<br/>
+												(<span>참여코드</span>를 꼭 확인해주세요)
+											</li>
+											<li>
+												참여코드가 맞지 않은 경우 <span>고객센터(1588-5795)로 문의 주세요.</span>
+											</li>
+											<li>
+												채팅방 운영에 방해되는 행위 및 광고를 할 시 강제 퇴장 되실 수 있습니다.</span>
+											</li>
+										</ul>
+									</div>
+								</div>	
+							</div>
+
+						</div>
+					</div>
+					<p class="bottom_txt">
+						오픈카톡방에서 실시간 더 많은 정보를 받아보세요!
+					</p>
+				</div>
+				<div class="tab_js">
+					<ul class="tab_list tab_responsive tab_list_js scroll_have">
+						<li class="on">	
+							<a href="#tab1">전문가의견</a>
+						</li>
+						<li>
+							<a href="#tab2">전문가 수익률</a>
+						</li>
+						<li>
+							<a href="#tab3">방송보기</a>
+						</li>
+						<li>
+							<a href="#tab4">전문가소개</a>
+						</li>
+					</ul>
+					<div class="tab_cnt_js scroll_cnt">
+						<div id="tab1">
+							<ul class="tab_list2 tab_switch_js">
+								<li class="on">
+									<a href="javascript:void(0);">최신순</a>
+								</li>
+								<li>
+									<a href="javascript:void(0);">좋아요순</a>
+								</li>
+							</ul>
+							<ul class="stock_list">
+								<li class="list_wrap">
+									<!-- [pp] 딤 처리영역 -->
+									<div class="bg_dim"></div>
+									<!-- [pp] //딤 처리영역 -->
+			
+									<div class="name_subscribe">
+										<a href="javascript:void(0);">
+											<div class="img_wrap">
+												<img src="../../../images/client/sub/img_export_ex.png" alt="이영진 전문가">
+											</div>
+											<strong>이영진</strong>
+											전문가
+										</a>
+										<!-- [pp] 구독하기, 구독중 :
+										<button type="button" class="btn_round btn_sm btn_positive1">구독하기</button>
+										<button type="button" class="btn_round btn_sm btn_negative1">구독중</button>
+										-->
+										<button type="button" class="btn_round btn_sm btn_positive1">구독하기</button>
+									</div>
+									<div class="time_like">
+										오전 09:30
+										<p class="btn_addlike">
+											<input type="checkbox" id="like1" name="lidk1" hidden>
+											<label for="like1">8</label>
+										</p>
+									</div>
+									<!-- [pp] 이미지 없을시 pd_r0 클래스 추가-->
+									<a href="javascript:void(0);" class="detail_cnt list-item">
+										<div class="text">
+											금일 우주항공 관련주들은 전반적으로 긍정적인 흐름 보이고 있습니다. 관련 이슈들은 지속 체크하고 피드백 드리겠습니다.
+											금일 우주항공 관련주들은 전반적으로 긍정적인 흐름 보이고 있습니다.
+											금일 우주항공 관련주들은 전반적으로 긍정적인 흐름 보이고 있습니다. 관련 이슈들은 지속 체크하고 피드백 드리겠습니다.
+											금일 우주항공 관련주들은 전반적으로 긍정적인 흐름 보이고 있습니다.
+										</div>
+										<div class="detail_img">
+											<div class="img_wrap">
+												<img src="../../../images/client/sub/img_list_ex.png" alt="이미지 예시">
+											</div>
+										</div>
+									</a>
+									<div class="popup-layer">
+										<div class="name_subscribe">
+											<a href="javascript:void(0);">
+												<div class="img_wrap">
+													<img src="../../../images/client/sub/img_export_ex.png" alt="이영진 전문가">
+												</div>
+												<strong>이영진</strong>
+												전문가
+											</a>
+											<!-- [pp] 구독하기, 구독중 :
+											<button type="button" class="btn_round btn_sm btn_positive1">구독하기</button>
+											<button type="button" class="btn_round btn_sm btn_negative1">구독중</button>
+											-->
+											<button type="button" class="btn_round btn_sm btn_positive1">구독하기</button>
+										</div>
+										<div class="time_like">
+											<p class="btn_addlike">
+												<input type="checkbox" id="like1" name="like1" hidden>
+												<label for="like1">8</label>
+											</p>
+											<button type="button" class="btn_texttransform">가</button>
+										</div>
+										<div class="detail_cnt">
+											<div class="text">
+												<div class="editor_area text-show">금일 우주항공 관련주들은 전반적으로 긍정적인 흐름 보이고 있습니다. 관련 이슈들은 지속 체크하고 피드백 드리겠습니다. 금일 우주항공 관련주들은 전반적으로 긍정적인 흐름 보이고 있습니다. 금일 우주항공 관련주들은 전반적으로 긍정적인 흐름 보이고 있습니다. 관련 이슈들은 지속 체크하고 피드백 드리겠습니다.</div>
+											</div>
+											<div class="detail_img">
+												<div class="openimg_wrap">
+													<div class="opengallery">
+														<a class="gallery_item" href="../../../images/client/sub/img_list_ex.png">
+															<img src="../../../images/client/sub/img_list_ex.png" alt="이미지 예시">
+														</a>
+														<a class="gallery_item" href="../../../images/client/main/img_eventbanner1.png">
+															<img src="../../../images/client/main/img_eventbanner1.png" alt="갤러리 예시">
+														</a>
+													</div>
+												</div>
+											</div>
+										</div>
+										<button type="button" class="btn_round btn_kakaotalk wd_p100 chat-item" title="바로보기">실시간정보 바로보기</button>
+			
+										<!-- [pp] 텍스트 크기 설정 영역 -->
+										<div class="transform_txtwrap">
+											<h4 class="section_tit_md">글씨크기 변경</h4>
+											<div class="gauge">
+												<span class="small">가</span>
+												<span class="large">가</span>
+												<div class="progress" id="progress">
+													<div class="progress-bar" id="progress-bar">
+														<span class="on target"></span>
+														<span></span>
+														<span></span>
+														<span></span>
+														<span></span>
+													</div>
+												</div>
+											</div>
+											<button type="button" class="btn_round btn_md btn_bo_negative2" title="입장하기">확인</button>
+										</div>
+										<!-- [pp] //텍스트 크기 설정 영역 -->
+									</div>
+
+									
+								</li>
+								<li class="list_wrap">
+									<!-- [pp] 딤 처리영역 -->
+									<div class="bg_dim"></div>
+									<!-- [pp] //딤 처리영역 -->
+			
+									<div class="name_subscribe">
+										<a href="javascript:void(0);">
+											<div class="img_wrap">
+												<img src="../../../images/client/sub/icon_notimg.png" alt="사진없을때">
+											</div>
+											<strong>곽경영</strong>
+											전문가
+										</a>
+										<!-- [pp] 구독하기, 구독중 :
+										<button type="button" class="btn_round btn_sm btn_positive1">구독하기</button>
+										<button type="button" class="btn_round btn_sm btn_negative1">구독중</button>
+										-->
+										<button type="button" class="btn_round btn_sm btn_negative1">구독중</button>
+									</div>
+									<div class="time_like">
+										오전 08:12
+										<p class="btn_addlike">
+											<input type="checkbox" id="like2" name="like2" hidden checked>
+											<label for="like2">12</label>
+										</p>
+									</div>
+									<!-- [pp] 이미지 없을시 pd_r0 클래스 추가-->
+									<a href="javascript:void(0);" class="detail_cnt list-item">
+										<div class="text">
+											[곽경영 전문가가 사진을 올렸습니다.]
+										</div>
+										<div class="detail_img">
+											<div class="img_wrap">
+												<img src="../../../images/client/sub/img_list_ex.png" alt="이미지 예시">
+											</div>
+										</div>
+									</a>
+									<div class="popup-layer">
+										<div class="name_subscribe">
+											<a href="javascript:void(0);">
+												<div class="img_wrap">
+													<img src="../../../images/client/sub/icon_notimg.png" alt="사진없을때">
+												</div>
+												<strong>곽경영</strong>
+												전문가
+											</a>
+											<!-- [pp] 구독하기, 구독중 :
+											<button type="button" class="btn_round btn_sm btn_positive1">구독하기</button>
+											<button type="button" class="btn_round btn_sm btn_negative1">구독중</button>
+											-->
+											<button type="button" class="btn_round btn_sm btn_negative1">구독중</button>
+										</div>
+										<div class="time_like">
+											<p class="btn_addlike">
+												<input type="checkbox" id="like2" name="like2" hidden checked>
+												<label for="like2">12</label>
+											</p>
+											<button type="button" class="btn_texttransform">가</button>
+										</div>
+										<div class="detail_cnt">
+											<div class="text">
+												<div class="editor_area text-show">[곽경영 전문가가 사진을 올렸습니다.]</div>
+											</div>
+											<div class="detail_img">
+												<div class="openimg_wrap">
+													<div class="opengallery">
+														<a class="gallery_item" href="../../../images/client/sub/img_list_ex.png">
+															<img src="../../../images/client/sub/img_list_ex.png" alt="이미지 예시">
+														</a>
+													</div>
+												</div>
+											</div>
+										</div>
+										<button type="button" class="btn_round btn_kakaotalk wd_p100 chat-item" title="바로보기">실시간정보 바로보기</button>
+			
+										<!-- [pp] 텍스트 크기 설정 영역 -->
+										<div class="transform_txtwrap">
+											<h4 class="section_tit_md">글씨크기 변경</h4>
+											<div class="gauge">
+												<span class="small">가</span>
+												<span class="large">가</span>
+												<div class="progress" id="progress">
+													<div class="progress-bar" id="progress-bar">
+														<span class="on target"></span>
+														<span></span>
+														<span></span>
+														<span></span>
+														<span></span>
+													</div>
+												</div>
+											</div>
+											<button type="button" class="btn_round btn_md btn_bo_negative2" title="입장하기">확인</button>
+										</div>
+										<!-- [pp] //텍스트 크기 설정 영역 -->
+									</div>
+
+									<!-- [pp] 오픈채팅 팝업 -->
+									<div class="chat-layer">
+
+										<div class="chat_header">
+											<h2>실시간정보 바로보기</h2>
+										</div>
+										<div class="chat_content">
+											<div class="member_info">
+												<div class="img_wrap">
+													<img src="../../../images/client/sub/img_openchat_ex.png" alt="신현호 대표">
+												</div>
+												<div class="txt">
+													<p class="name"><span>신현호</span>대표</p>
+													<strong>MEGA TREND 투자전문가</strong>
+													실전투자대회에서 검증된 스윙/단기매매 전문가
+												</div>
+											</div>
+											<button type="button" class="btn_round btn_kakaotalk wd_p100 list-item" title="바로보기">실시간정보 바로보기</button>
+											<p class="join_code">
+												참여코드 :<span class="font_red">3906</span>을 꼭 입력해주세요!
+											</p>
+											<div class="notice_list">
+												<strong>유의사항</strong>
+												<ul>
+													<li>
+														채팅방 입장시 <span>크존</span>의 <span>닉네임과 동일</span>하게 입력해주세요.
+													</li>
+													<li>
+														위 실시간정보 바로보기 버튼을 누르면 바로 입장됩니다.<br/>
+														(<span>참여코드</span>를 꼭 확인해주세요)
+													</li>
+													<li>
+														참여코드가 맞지 않은 경우 <span>고객센터(1588-5795)로 문의 주세요.</span>
+													</li>
+													<li>
+														채팅방 운영에 방해되는 행위 및 광고를 할 시 강제 퇴장 되실 수 있습니다.</span>
+													</li>
+												</ul>
+											</div>
+										</div>	
+									</div>
+								</li>
+								<li class="list_wrap">
+									<!-- [pp] 딤 처리영역 -->
+									<div class="bg_dim"></div>
+									<!-- [pp] //딤 처리영역 -->
+			
+									<div class="name_subscribe">
+										<a href="javascript:void(0);">
+											<div class="img_wrap">
+												<img src="../../../images/client/sub/icon_notimg.png" alt="사진없을때">
+											</div>
+											<strong>황경영</strong>
+											전문가
+										</a>
+										<!-- [pp] 구독하기, 구독중 :
+										<button type="button" class="btn_round btn_sm btn_positive1">구독하기</button>
+										<button type="button" class="btn_round btn_sm btn_negative1">구독중</button>
+										-->
+										<button type="button" class="btn_round btn_sm btn_negative1">구독중</button>
+									</div>
+									<div class="time_like">
+										오전 08:12
+										<p class="btn_addlike">
+											<input type="checkbox" id="like3" name="like3" hidden checked>
+											<label for="like3">12</label>
+										</p>
+									</div>
+									<!-- [pp] 이미지 없을시 pd_r0 클래스 추가-->
+									<a href="javascript:void(0);" class="detail_cnt list-item pd_r0">
+										<div class="text">
+											텍스트만 있을시엔 pd_r0 클래스를 detail_cnt 에 추가해주세요.
+										</div>
+									</a>
+									<div class="popup-layer">
+										<div class="name_subscribe">
+											<a href="javascript:void(0);">
+												<div class="img_wrap">
+													<img src="../../../images/client/sub/icon_notimg.png" alt="사진없을때">
+												</div>
+												<strong>황경영</strong>
+												전문가
+											</a>
+											<!-- [pp] 구독하기, 구독중 :
+											<button type="button" class="btn_round btn_sm btn_positive1">구독하기</button>
+											<button type="button" class="btn_round btn_sm btn_negative1">구독중</button>
+											-->
+											<button type="button" class="btn_round btn_sm btn_negative1">구독중</button>
+										</div>
+										<div class="time_like">
+											<p class="btn_addlike">
+												<input type="checkbox" id="like3" name="like3" hidden checked>
+												<label for="like3">12</label>
+											</p>
+											<button type="button" class="btn_texttransform">가</button>
+										</div>
+										<div class="detail_cnt">
+											<div class="text">
+												<div class="editor_area text-show">텍스트만 있을시엔 pd_r0 클래스를 detail_cnt 에 추가해주세요.</div>
+											</div>
+										</div>
+										<button type="button" class="btn_round btn_kakaotalk wd_p100 chat-item" title="바로보기">실시간정보 바로보기</button>
+			
+										<!-- [pp] 텍스트 크기 설정 영역 -->
+										<div class="transform_txtwrap">
+											<h4 class="section_tit_md">글씨크기 변경</h4>
+											<div class="gauge">
+												<span class="small">가</span>
+												<span class="large">가</span>
+												<div class="progress" id="progress">
+													<div class="progress-bar" id="progress-bar">
+														<span class="on target"></span>
+														<span></span>
+														<span></span>
+														<span></span>
+														<span></span>
+													</div>
+												</div>
+											</div>
+											<button type="button" class="btn_round btn_md btn_bo_negative2" title="입장하기">확인</button>
+										</div>
+										<!-- [pp] //텍스트 크기 설정 영역 -->
+									</div>
+
+									<!-- [pp] 오픈채팅 팝업 -->
+									<div class="chat-layer">
+
+										<div class="chat_header">
+											<h2>실시간정보 바로보기</h2>
+										</div>
+										<div class="chat_content">
+											<div class="member_info">
+												<div class="img_wrap">
+													<img src="../../../images/client/sub/img_openchat_ex.png" alt="신현호 대표">
+												</div>
+												<div class="txt">
+													<p class="name"><span>신현호</span>대표</p>
+													<strong>MEGA TREND 투자전문가</strong>
+													실전투자대회에서 검증된 스윙/단기매매 전문가
+												</div>
+											</div>
+											<button type="button" class="btn_round btn_kakaotalk wd_p100" title="바로보기">실시간정보 바로보기</button>
+											<p class="join_code">
+												참여코드 :<span class="font_red">3906</span>을 꼭 입력해주세요!
+											</p>
+											<div class="notice_list">
+												<strong>유의사항</strong>
+												<ul>
+													<li>
+														채팅방 입장시 <span>크존</span>의 <span>닉네임과 동일</span>하게 입력해주세요.
+													</li>
+													<li>
+														위 실시간정보 바로보기 버튼을 누르면 바로 입장됩니다.<br/>
+														(<span>참여코드</span>를 꼭 확인해주세요)
+													</li>
+													<li>
+														참여코드가 맞지 않은 경우 <span>고객센터(1588-5795)로 문의 주세요.</span>
+													</li>
+													<li>
+														채팅방 운영에 방해되는 행위 및 광고를 할 시 강제 퇴장 되실 수 있습니다.</span>
+													</li>
+												</ul>
+											</div>
+										</div>	
+									</div>
+								</li>
+							</ul>
+						</div>
+						<div id="tab2">
+							<ul class="ratereturn_list">
+								<li>
+									<div class="name">
+										HLB이노베이션
+										<strong>024850</strong>
+									</div>
+									<div class="buy_sell">
+										<p>매수<span>23-02-22</span></p>
+										<p>매도<span>23-04-27</span></p>
+									</div>
+									<div class="price">
+										<p>2,530원</p>
+										<p>5,160원</p>
+									</div>
+									<div class="percent">
+										<!-- [pp] 상태에 따른 변경 : 
+										<p class="font_red">▲상승</p>
+										<p class="font_blue">▼하락</p>
+										-->
+										<p class="font_red">▲103%</p>
+									</div>
+								</li>
+								<li>
+									<div class="name">
+										박셀바이오
+										<strong>323990</strong>
+									</div>
+									<div class="buy_sell">
+										<p>매수<span>23-03-27</span></p>
+										<p>매도<span>23-04-04</span></p>
+									</div>
+									<div class="price">
+										<p>38,450원</p>
+										<p>41,000원</p>
+									</div>
+									<div class="percent">
+										<!-- [pp] 상태에 따른 변경 : 
+										<p class="font_red">▲상승</p>
+										<p class="font_blue">▼하락</p>
+										-->
+										<p class="font_red">▲6%</p>
+									</div>
+								</li>
+								<li>
+									<div class="name">
+										현대바이오
+										<strong>048410</strong>
+									</div>
+									<div class="buy_sell">
+										<p>매수<span>22-12-06</span></p>
+										<p>매도<span>22-12-14</span></p>
+									</div>
+									<div class="price">
+										<p>27,000원</p>
+										<p>26,150원</p>
+									</div>
+									<div class="percent">
+										<!-- [pp] 상태에 따른 변경 : 
+										<p class="font_red">▲상승</p>
+										<p class="font_blue">▼하락</p>
+										-->
+										<p class="font_blue">▼-3%</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<div id="tab3">
+							<ul class="broadcast_list">
+								<li>
+									<a href="javascript:void(0);">
+										<div class="img_wrap">
+											<img src="../../../images/client/sub/img_list_ex.png" alt="썸네일 예시">
+										</div>
+										<div>	
+											<p>일정 파악으로 싸게 매수하는법!</p>
+											2023.04.18
+										</div>
+									</a>
+								</li>
+								<li>
+									<a href="javascript:void(0);">
+										<div class="img_wrap">
+											<img src="../../../images/client/sub/img_list_ex.png" alt="썸네일 예시">
+										</div>
+										<div>	
+											<p>제목이 2줄 일시에 ...표시 제목이 2줄 일시에 ...표시제목이 2줄 일시에 ...표시 제목이 2줄 일시에 ...표시</p>
+											2023.04.18
+										</div>
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div id="tab4">
+							<ul class="expert_introlist">
+								<li>
+									<strong>전문가 인사말</strong>
+									<div class="editor_area">성장성에 배팅하라</div>
+								</li>
+								<li>
+									<strong>투자 스타일</strong>
+									<div class="editor_area">시장 상황에 맞는 안정적 우량주 매매
+										시장의 트렌드 분석을 통한 단기/중기/성장 단계별 섹터 선별
+										차트 기법을 통한 기술적 분석으로 최적의 매매타이밍
+									</div>
+								</li>
+								<li>
+									<strong>전문가 경력</strong>
+									<div class="editor_area">투자고서 전속 전문가</div>
+								</li>
+								<li>
+									<strong>소속사</strong>
+									<a href="javascript:void(0);">
+										<div class="img_wrap">
+											<img src="../../../images/client/sub/img_agency_ex.png" alt="예시">
+										</div>
+										<div>
+											<strong>소속사 <span>투고</span></strong>
+											<div class="editor_area">신뢰할 수 있는 콘텐츠와 시스템으로 고객에게
+												최고의 투자정보 서비스를 제공합니다.</div>
+										</div>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+			<!-- [pp] //본문영역 -->
+
+		</div>
+		<!-- [pp] //전체영역 -->
+
+	</body>
+
+</html>
